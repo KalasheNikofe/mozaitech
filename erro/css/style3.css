@@ -1,0 +1,41 @@
+.info
+{
+  background-color: #f7f7f7;
+}
+.info .content
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.info .content .infox
+{
+ max-width: calc(50% - 40px);
+ padding: 60px 40px;
+ margin: 20px;
+ background:  #a9a9a9;
+}
+.info .content .infox p
+{
+  color: #fff;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 300;
+}
+.info .content .infox h3
+{
+  margin-top: 40px;
+  text-align: end;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1em;
+}
+.info .content .infox h3 span
+{
+ font-size: 14px;
+ font-weight: 400;
+}
+
+
+
